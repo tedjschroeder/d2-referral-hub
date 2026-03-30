@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ted's Passive Income Hub - SEO-optimized referral landing pages for premium products and services.">
+    <meta name="keywords" content="passive income, referral programs, affiliate marketing, Bill.com, ServiceTitan, Tesla, Amex">
+    <meta name="author" content="Ted">
+    <title>Ted's Passive Income Hub - Referral Landing Pages</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; color: #1a1a1a; line-height: 1.6; background: #fafafa; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0; text-align: center; }
+        header h1 { font-size: 2.8em; margin-bottom: 15px; }
+        header p { font-size: 1.3em; opacity: 0.95; }
+        .nav-breadcrumb { background: white; padding: 20px 0; border-bottom: 1px solid #eee; text-align: center; }
+        .nav-breadcrumb a { color: #667eea; text-decoration: none; margin: 0 15px; font-weight: 500; }
+        .nav-breadcrumb a:hover { text-decoration: underline; }
+        .intro { padding: 60px 0; text-align: center; }
+        .intro h2 { font-size: 2em; color: #667eea; margin-bottom: 20px; }
+        .intro p { font-size: 1.1em; color: #666; max-width: 700px; margin: 0 auto; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 60px 0; }
+        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.15); }
+        .card-header { padding: 30px; border-bottom: 4px solid #667eea; }
+        .card-header.bill-ap { border-bottom-color: #003366; }
+        .card-header.bill-spend { border-bottom-color: #1e4620; }
+        .card-header.servicetitan { border-bottom-color: #0066cc; }
+        .card-header.amex { border-bottom-color: #111111; }
+        .card-header.tesla { border-bottom-color: #e82127; }
+        .card-header h3 { font-size: 1.4em; color: #1a1a1a; margin-bottom: 10px; }
+        .card-header p { color: #666; font-size: 0.95em; }
+        .card-body { padding: 30px; }
+        .card-body ul { list-style: none; margin: 20px 0; }
+        .card-body li { padding: 8px 0; color: #666; display: flex; align-items: center; }
+        .card-body li:before { content: "✓"; color: #667eea; font-weight: bold; margin-right: 10px; }
+        .card-footer { padding: 20px 30px; background: #f9f9f9; border-top: 1px solid #eee; }
+        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.3s; border: none; cursor: pointer; }
+        .btn:hover { background: #5568d3; }
+        .dashboard-section { background: white; padding: 40px; border-radius: 8px; margin: 60px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .dashboard-section h2 { color: #667eea; margin-bottom: 30px; font-size: 1.8em; }
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .metric-card { background: #f9f9f9; padding: 20px; border-radius: 6px; border-left: 4px solid #667eea; }
+        .metric-label { color: #999; font-size: 0.9em; text-transform: uppercase; margin-bottom: 8px; }
+        .metric-value { font-size: 1.8em; font-weight: bold; color: #667eea; }
+        .content-section { background: white; padding: 40px; border-radius: 8px; margin: 60px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .content-section h2 { color: #667eea; margin-bottom: 30px; font-size: 1.8em; }
+        .content-list { list-style: none; }
+        .content-list li { padding: 15px 0; border-bottom: 1px solid #eee; }
+        .content-list li:last-child { border-bottom: none; }
+        .content-list h4 { color: #1a1a1a; margin-bottom: 5px; }
+        .content-list p { color: #666; font-size: 0.95em; }
+        footer { background: #333; color: white; padding: 40px 0; text-align: center; margin-top: 80px; }
+        footer p { font-size: 0.9em; }
+        .status-indicator { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+        .status-live { background: #4caf50; }
+        .status-draft { background: #ff9800; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🎯 Ted's Passive Income Hub</h1>
+            <p>SEO-Optimized Referral Landing Pages</p>
+        </div>
+    </header>
+
+    <div class="nav-breadcrumb">
+        <div class="container">
+            <a href="#overview">Overview</a>
+            <a href="#landing-pages">Landing Pages</a>
+            <a href="#dashboard">Revenue Dashboard</a>
+            <a href="#content">Content Calendar</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="intro" id="overview">
+            <h2>5 Referral Streams. Optimized for Organic Traffic.</h2>
+            <p>This hub aggregates landing pages for high-conversion referral programs across business software, payments, and premium services. Each page is SEO-optimized and designed to convert visitors into referral signups.</p>
+        </section>
+
+        <section class="card-grid" id="landing-pages">
+            <!-- Bill.com AP -->
+            <div class="card">
+                <div class="card-header bill-ap">
+                    <h3>Bill.com AP</h3>
+                    <p>Accounts Payable Automation</p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Target Audience:</strong> Finance managers, CFOs, growing businesses</p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9em;"><span class="status-indicator status-live"></span> Live</p>
+                    <ul>
+                        <li>Save 10+ hours/week</li>
+                        <li>Fraud prevention</li>
+                        <li>Faster cash flow</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="landing_pages/billcom-ap.html" class="btn">View Landing Page</a>
+                </div>
+            </div>
+
+            <!-- Bill.com Spend -->
+            <div class="card">
+                <div class="card-header bill-spend">
+                    <h3>Bill.com Spend</h3>
+                    <p>Expense Management</p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Target Audience:</strong> Finance teams, startups, mid-market companies</p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9em;"><span class="status-indicator status-live"></span> Live</p>
+                    <ul>
+                        <li>Real-time visibility</li>
+                        <li>Automated approvals</li>
+                        <li>Compliance controls</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="landing_pages/billcom-spend.html" class="btn">View Landing Page</a>
+                </div>
+            </div>
+
+            <!-- ServiceTitan -->
+            <div class="card">
+                <div class="card-header servicetitan">
+                    <h3>ServiceTitan</h3>
+                    <p>Field Service Management</p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Target Audience:</strong> HVAC, electrical, plumbing contractors</p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9em;"><span class="status-indicator status-live"></span> Live</p>
+                    <ul>
+                        <li>Smart dispatch</li>
+                        <li>Faster payments</li>
+                        <li>Real-time analytics</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="landing_pages/servicetitan.html" class="btn">View Landing Page</a>
+                </div>
+            </div>
+
+            <!-- Amex Platinum -->
+            <div class="card">
+                <div class="card-header amex">
+                    <h3>Amex Platinum</h3>
+                    <p>Premium Business Card</p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Target Audience:</strong> Executives, high-spend professionals, business owners</p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9em;"><span class="status-indicator status-live"></span> Live</p>
+                    <ul>
+                        <li>Premium travel benefits</li>
+                        <li>24/7 concierge</li>
+                        <li>Business rewards</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="landing_pages/amex-platinum.html" class="btn">View Landing Page</a>
+                </div>
+            </div>
+
+            <!-- Tesla -->
+            <div class="card">
+                <div class="card-header tesla">
+                    <h3>Tesla</h3>
+                    <p>Electric Vehicles</p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Target Audience:</strong> Tech enthusiasts, eco-conscious buyers, early adopters</p>
+                    <p style="margin-top: 15px; color: #999; font-size: 0.9em;"><span class="status-indicator status-live"></span> Live</p>
+                    <ul>
+                        <li>Superior performance</li>
+                        <li>Zero emissions</li>
+                        <li>Advanced technology</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="landing_pages/tesla.html" class="btn">View Landing Page</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section" id="dashboard">
+            <h2>📊 Monthly Revenue Dashboard</h2>
+            <p style="color: #666; margin-bottom: 30px;">Track performance across all 5 referral streams. Update monthly.</p>
+            <div class="dashboard-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Bill.com AP Clicks</div>
+                    <div class="metric-value">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Bill.com Spend Clicks</div>
+                    <div class="metric-value">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">ServiceTitan Clicks</div>
+                    <div class="metric-value">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Amex Platinum Clicks</div>
+                    <div class="metric-value">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Tesla Referrals</div>
+                    <div class="metric-value">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Total Conversions</div>
+                    <div class="metric-value">0</div>
+                </div>
+            </div>
+            <div style="margin-top: 30px; padding: 20px; background: #f0f4ff; border-radius: 6px;">
+                <p style="color: #667eea; font-size: 0.95em;"><strong>📌 How to Update:</strong> Edit this file with actual click/conversion data. Use UTM parameters in each referral link to track source, medium, and campaign.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="content">
+            <h2>📝 Content Calendar - Blog Post Ideas</h2>
+            <p style="color: #666; margin-bottom: 30px;">3 high-volume keyword opportunities per product to drive organic traffic to landing pages.</p>
+            
+            <ul class="content-list">
+                <li>
+                    <h4>🟦 Bill.com AP Automation</h4>
+                    <p><strong>Blog Post 1:</strong> "How to Automate Accounts Payable: A Step-by-Step Guide" | Keyword: "accounts payable automation software" | Internal Link: Bill.com AP Landing Page</p>
+                    <p><strong>Blog Post 2:</strong> "5 Ways to Prevent Duplicate Invoices and Save Thousands" | Keyword: "duplicate invoice prevention" | Internal Link: Bill.com AP</p>
+                    <p><strong>Blog Post 3:</strong> "Bill.com vs Manual AP: Time & Cost Comparison" | Keyword: "bill.com alternatives" | Internal Link: Bill.com AP</p>
+                </li>
+                <li>
+                    <h4>🟩 Bill.com Spend Management</h4>
+                    <p><strong>Blog Post 1:</strong> "Real-Time Expense Management: Why Teams Are Switching" | Keyword: "expense management software" | Internal Link: Bill.com Spend</p>
+                    <p><strong>Blog Post 2:</strong> "How to Reduce Unauthorized Employee Spending" | Keyword: "employee spend control" | Internal Link: Bill.com Spend</p>
+                    <p><strong>Blog Post 3:</strong> "Automated Approval Workflows: Best Practices for Finance Teams" | Keyword: "expense approval automation" | Internal Link: Bill.com Spend</p>
+                </li>
+                <li>
+                    <h4>🟦 ServiceTitan</h4>
+                    <p><strong>Blog Post 1:</strong> "Field Service Management Software for Contractors: 2026 Guide" | Keyword: "field service management software" | Internal Link: ServiceTitan</p>
+                    <p><strong>Blog Post 2:</strong> "How Dispatch Software Increases Jobs Per Technician" | Keyword: "dispatch software contractors" | Internal Link: ServiceTitan</p>
+                    <p><strong>Blog Post 3:</strong> "HVAC Contractor Software: Complete Toolkit Review" | Keyword: "HVAC management software" | Internal Link: ServiceTitan</p>
+                </li>
+                <li>
+                    <h4>🟥 American Express Platinum Card</h4>
+                    <p><strong>Blog Post 1:</strong> "Amex Platinum vs Other Premium Cards: Full Comparison" | Keyword: "best premium credit cards" | Internal Link: Amex Platinum</p>
+                    <p><strong>Blog Post 2:</strong> "How to Maximize Amex Platinum Benefits" | Keyword: "amex platinum rewards" | Internal Link: Amex Platinum</p>
+                    <p><strong>Blog Post 3:</strong> "Airport Lounge Access: Best Premium Cards Compared" | Keyword: "best airport lounge cards" | Internal Link: Amex Platinum</p>
+                </li>
+                <li>
+                    <h4>🔴 Tesla Electric Vehicles</h4>
+                    <p><strong>Blog Post 1:</strong> "Tesla vs Traditional Cars: Total Cost of Ownership Analysis" | Keyword: "tesla cost of ownership" | Internal Link: Tesla</p>
+                    <p><strong>Blog Post 2:</strong> "Tesla Supercharging Network: How It Works & Where to Find Them" | Keyword: "tesla supercharger locations" | Internal Link: Tesla</p>
+                    <p><strong>Blog Post 3:</strong> "Model 3 vs Model Y: Which Tesla Should You Buy?" | Keyword: "tesla model 3 vs model y" | Internal Link: Tesla</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="content-section">
+            <h2>🔗 UTM-Tagged Referral Links</h2>
+            <p style="color: #666; margin-bottom: 30px;">Use these links in blog posts and external marketing. UTM parameters track source, medium, and campaign for attribution.</p>
+            
+            <ul class="content-list">
+                <li>
+                    <h4>Bill.com AP</h4>
+                    <p style="word-break: break-all; font-family: monospace; background: #f0f4ff; padding: 10px; border-radius: 4px; font-size: 0.85em;">
+                        https://referral.bill.com/831t0ddixn08-6l4khe?utm_source=organic&utm_medium=referral_landing&utm_campaign=ap_automation
+                    </p>
+                </li>
+                <li>
+                    <h4>Bill.com Spend</h4>
+                    <p style="word-break: break-all; font-family: monospace; background: #f0f4ff; padding: 10px; border-radius: 4px; font-size: 0.85em;">
+                        https://referral.bill.com/4kd85ymuk8ih-sxqxct?utm_source=organic&utm_medium=referral_landing&utm_campaign=spend_management
+                    </p>
+                </li>
+                <li>
+                    <h4>ServiceTitan</h4>
+                    <p style="word-break: break-all; font-family: monospace; background: #f0f4ff; padding: 10px; border-radius: 4px; font-size: 0.85em;">
+                        https://join.servicetitan.com/mQONuAY?utm_source=organic&utm_medium=referral_landing&utm_campaign=field_service
+                    </p>
+                </li>
+                <li>
+                    <h4>Amex Platinum</h4>
+                    <p style="word-break: break-all; font-family: monospace; background: #f0f4ff; padding: 10px; border-radius: 4px; font-size: 0.85em;">
+                        https://americanexpress.com/en-us/referral/platinum-card?ref=THEODSCztV&XLINK=MYCP&utm_source=organic&utm_medium=referral_landing&utm_campaign=premium_card
+                    </p>
+                </li>
+                <li>
+                    <h4>Tesla</h4>
+                    <p style="word-break: break-all; font-family: monospace; background: #f0f4ff; padding: 10px; border-radius: 4px; font-size: 0.85em;">
+                        https://ts.la/ted108863?utm_source=organic&utm_medium=referral_landing&utm_campaign=electric_vehicles
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ted's Passive Income Hub. Not affiliated with any referenced companies. All referral links are genuine partnership opportunities.</p>
+        </div>
+    </footer>
+</body>
+</html>
