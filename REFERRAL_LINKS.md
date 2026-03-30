@@ -11,6 +11,7 @@
 | QuickBooks Online | Accounting | (Not found) | ⏳ Pending | Accounting software |
 | Amex Platinum | Credit Cards | https://americanexpress.com/en-us/referral/platinum-card?ref=THEODSCztV&XLINK=MYCP | ✅ Active | Premium CC with annual comp |
 | Tesla | EV/Auto | https://ts.la/ted108863 | ✅ Active | Free supercharger credits per ref |
+| Kalshi | Prediction Markets | https://kalshi.com/sign-up/?referral=90efee53-d1b5-4b5c-815c-1e59e5edfbe4&m=true | ✅ Active | $25 signup bonus per referral |
 
 ---
 
