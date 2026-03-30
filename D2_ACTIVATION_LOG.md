@@ -59,7 +59,7 @@
 ---
 
 ## Configuration
-- **Bot Token**: 8369278639:AAH9-RlZ7r3Q6K_8f9jH2mXn4pQ1sT2uVwX
+- **Bot Token**: [REDACTED — regenerate via BotFather]
 - **Route**: telegram → passive-income-strategist
 - **Enabled**: ✅ YES
 - **Config Location**: `/Users/OpenClaw/.openclaw/openclaw.json` (channels.telegram.accounts.d2_passive_income)

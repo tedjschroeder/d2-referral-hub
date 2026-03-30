@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /tracking/
+Disallow: /templates/
+Allow: /landing_pages/
+Allow: /modelops_io/
+Allow: /privacy.html
+
+Sitemap: https://tedjschroeder.github.io/d2-referral-hub/sitemap.xml
